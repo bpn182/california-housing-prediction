@@ -6,8 +6,13 @@ This project aims to predict housing prices in California using a neural network
 
 - `california_housing.py`: The main script that preprocesses the data, builds the neural network model, trains it, and evaluates its performance.
 - `housing.csv`: The dataset containing information about houses in California.
-- `mse_mae_epoch_comparisons.png`: A plot showing the Mean Squared Error (MSE) and Mean Absolute Error (MAE) vs. Epochs.
-- `actual_&_predicted_price.png`: A scatter plot comparing the actual house prices with the predicted house prices.
+- `images/comparison.png`: A plot showing the Mean Squared Error (MSE) and Mean Absolute Error (MAE) vs. Epochs.
+- `actual_vs_predicttion.png`: A scatter plot comparing the actual house prices with the predicted house prices.
+  Here is a comparison image showing the results:
+
+
+
+
 
 ## Requirements
 
@@ -21,3 +26,16 @@ You can install the required packages using the following command:
 
 ```bash
 pip install pandas scikit-learn tensorflow matplotlib
+```
+
+## Final Images
+
+- MSE vs Epoch and MAE vs Epoch
+
+![Comparison Image](images/comparison.png)
+
+- Predicted Price vs Actual Price
+
+![Predicted Image](images/actual_vs_prediction.png)
+
+![Predicted Image](images/predicted.png)
